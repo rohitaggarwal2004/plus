@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(path = "/plus")
 public class Plus {
-
 	@GetMapping(path = "/add/{a}/{b}")
 	public Integer add(@PathVariable Integer a, @PathVariable Integer b) {
 		return a + b + 2;
