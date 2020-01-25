@@ -41,6 +41,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+			<version>2.3.0.BUILD-SNAPSHOT</version>
+			<type>maven-plugin</type>
+		</dependency>
 	</dependencies>
 
 	<build>
